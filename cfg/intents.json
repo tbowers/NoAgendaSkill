@@ -1,0 +1,87 @@
+{
+   "intents":[
+      {
+         "name":"AMAZON.CancelIntent",
+         "samples":[
+
+         ]
+      },
+      {
+         "name":"AMAZON.HelpIntent",
+         "samples":[
+
+         ]
+      },
+      {
+         "name":"AMAZON.PauseIntent",
+         "samples":[
+
+         ]
+      },
+      {
+         "name":"AMAZON.ResumeIntent",
+         "samples":[
+
+         ]
+      },
+      {
+         "name":"AMAZON.StopIntent",
+         "samples":[
+
+         ]
+      },
+      {
+         "name":"NoAgendaCurrentPositionIntent",
+         "samples":[
+            "how far am I into the show",
+            "what is my current timestamp",
+            "what is my current position",
+            "what is my current timecode"
+         ],
+         "slots":[
+
+         ]
+      },
+      {
+         "name":"NoAgendaJumpBackIntent",
+         "samples":[
+            "jump back thirty seconds"
+         ],
+         "slots":[
+
+         ]
+      },
+      {
+         "name":"NoAgendaPlayIntent",
+         "samples":[
+            "play the latest episode",
+            "play the latest episode and skip to {SkipTime}"
+         ],
+         "slots":[
+            {
+               "name":"EpisodeNumber",
+               "type":"AMAZON.NUMBER",
+               "samples":[
+
+               ]
+            },
+            {
+               "name":"SkipTime",
+               "type":"AMAZON.DURATION",
+               "samples":[
+
+               ]
+            }
+         ]
+      },
+      {
+         "name":"NoAgendaPlayLive",
+         "samples":[
+            "start the live stream"
+         ],
+         "slots":[
+
+         ]
+      }
+   ]
+}
